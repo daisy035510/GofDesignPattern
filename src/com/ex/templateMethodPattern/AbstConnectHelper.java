@@ -1,4 +1,4 @@
-package com.ex.TemplateMethodPattern;
+package com.ex.templateMethodPattern;
 
 public abstract class AbstConnectHelper {
     protected abstract String doSecurity(String info);

@@ -1,4 +1,4 @@
-package com.ex.TemplateMethodPattern;
+package com.ex.templateMethodPattern;
 
 public class DefaultAbstConnectHelper extends AbstConnectHelper{
     @Override

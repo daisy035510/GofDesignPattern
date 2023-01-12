@@ -1,7 +1,7 @@
-package com.ex.TemplateMethodPattern.main;
+package com.ex.templateMethodPattern.main;
 
-import com.ex.TemplateMethodPattern.AbstConnectHelper;
-import com.ex.TemplateMethodPattern.DefaultAbstConnectHelper;
+import com.ex.templateMethodPattern.AbstConnectHelper;
+import com.ex.templateMethodPattern.DefaultAbstConnectHelper;
 
 /*
 템플릿 메소드 -
