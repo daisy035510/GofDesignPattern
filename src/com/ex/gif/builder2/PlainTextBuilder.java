@@ -22,7 +22,7 @@ public class PlainTextBuilder extends Builder{
         sb.append(data.getAge());
 
 
-        return null;
+        return sb.toString();
     }
 
     @Override

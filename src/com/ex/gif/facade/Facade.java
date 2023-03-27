@@ -18,7 +18,7 @@ public class Facade {
             Message message = new Message(row);
 
             System.out.println(message.makeName());
-            System.out.println(message.maekEmail());
+            System.out.println(message.makeEmail());
             System.out.println(message.makeBirthday());
         } else {
             System.out.println(name + " does not exist");

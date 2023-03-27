@@ -11,7 +11,7 @@ public class ArrayIterator implements Iterator {
     }
 
     @Override
-    public boolean next() {
+    public boolean hasNext() {
         this.index++;
         return this.index < array.getCount();
     }

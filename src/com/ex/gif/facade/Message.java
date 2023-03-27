@@ -13,10 +13,10 @@ public class Message {
     }
 
     public String makeBirthday() {
-        return "Name \"" + row.getBirthday() + "\"";
+        return "Birthday \"" + row.getBirthday() + "\"";
     }
 
-    public String maekEmail() {
-        return "Name \"" + row.getEmail() + "\"";
+    public String makeEmail() {
+        return "Emai \"" + row.getEmail() + "\"";
     }
 }

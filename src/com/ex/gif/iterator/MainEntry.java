@@ -15,7 +15,7 @@ public class MainEntry {
         Array array = new Array(items);
         Iterator it = new ArrayIterator(array);
 
-        while(it.next()) {
+        while(it.hasNext()) {
             Item item = (Item) it.current();
             System.out.println(item.toString());
         }
