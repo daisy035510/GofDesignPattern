@@ -10,25 +10,13 @@ public class Digit {
     private ArrayList<String> data = new ArrayList<>();
 
     public Digit(String fileNm) {
-        FileReader fr = null;
-        BufferedReader br = null;
 
-        try {
-            fr = new FileReader(fileNm);
-            br = new BufferedReader(fr);
-
+        try(BufferedReader br = new BufferedReader(new FileReader(fileNm))) {
             for(int i = 0; i < 5; i++){
                 data.add(br.readLine());
             }
         } catch (Exception e) {
             e.getStackTrace();
-        } finally {
-            try {
-                if (fr != null) fr.close();
-                if (br != null) br.close();
-            } catch (IOException e) {
-                e.getStackTrace();
-            }
         }
     }
 
